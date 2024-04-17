@@ -24,8 +24,6 @@ DOMAIN-SUFFIX, 163jiasu.com, REJECT
 ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/ios\/upgrade - reject-dict
 # > 网易云_VIP歌曲提醒框
 ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/vipcenter/tspopup\/get - reject-dict
-# 黑胶弹窗｜会员试用
-^https?:\/\/interface3?\.music\.163.com\/eapi\/(vipcenter\/tspopup\/get|vipauth\/app\/auth|music-vip-membership\/client\/vip\/info|zone\/songplay\/entry\/get) - reject-dict
 # > 网易云_每日推荐Tips
 # ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/homepage\/daily\/song\/elf\/notice - reject-dict
 # > 网易云_评论弹窗
