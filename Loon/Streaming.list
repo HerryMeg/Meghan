@@ -1,25 +1,4 @@
 # Streaming Media
-
-# (Live)
-# > Twitch
-DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,live-video.net
-DOMAIN-SUFFIX,ttvnw.net
-DOMAIN-SUFFIX,twitch-ext.rootonline.de
-DOMAIN-KEYWORD,ttvnw
-DOMAIN-KEYWORD,twitch
-IP-CIDR,103.53.48.0/23,no-resolve
-IP-CIDR,185.42.204.0/22,no-resolve
-IP-CIDR,192.108.239.0/24,no-resolve
-IP-CIDR,192.16.64.0/21,no-resolve
-IP-CIDR,199.9.248.0/21,no-resolve
-IP-CIDR,23.160.0.0/24,no-resolve
-IP-CIDR,45.113.128.0/22,no-resolve
-IP-CIDR,52.223.192.0/20,no-resolve
-IP-CIDR,52.223.208.0/21,no-resolve
-IP-CIDR,52.223.224.0/19,no-resolve
-IP-CIDR,99.181.64.0/18,no-resolve
-IP-CIDR6,2402:2a80::/32,no-resolve
 # (Music)
 # > Deezer
 USER-AGENT,Deezer*
@@ -180,26 +159,6 @@ USER-AGENT,ITV_Player*
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
 DOMAIN,itvpnpmobile-a.akamaihd.net
-# > iQIYI
-DOMAIN-SUFFIX,iq.com
-DOMAIN,intl.iqiyi.com
-DOMAIN,intl-rcd.iqiyi.com
-DOMAIN,intl-subscription.iqiyi.com
-IP-CIDR,23.53.32.88/32,no-resolve
-IP-CIDR,23.211.15.99/32,no-resolve
-IP-CIDR,103.5.34.153/32,no-resolve
-IP-CIDR,104.109.129.153/32,no-resolve
-IP-CIDR,110.238.107.47/32,no-resolve
-IP-CIDR,118.26.32.178/32,no-resolve
-IP-CIDR,203.74.95.131/32,no-resolve
-IP-CIDR,203.74.95.139/32,no-resolve
-IP-CIDR,203.74.95.153/32,no-resolve
-IP-CIDR,203.211.4.169/32,no-resolve
-IP-CIDR,203.211.4.193/32,no-resolve
-IP-CIDR,210.71.227.200/32,no-resolve
-IP-CIDR,210.71.227.202/32,no-resolve
-IP-CIDR,210.201.32.8/32,no-resolve
-IP-CIDR,210.201.32.11/32,no-resolve
 # > KKTV
 USER-AGENT,KKTV*
 USER-AGENT,com.kktv.ios.kktv*
@@ -337,7 +296,7 @@ DOMAIN-SUFFIX,spreaker.com
 DOMAIN-SUFFIX,media.rss.com
 DOMAIN-SUFFIX,op3.dev
 DOMAIN-KEYWORD,xvideos
-# > Media
+# > Emby
 DOMAIN-KEYWORD,embymv
 IP-CIDR,193.123.232.141/32,no-resolve
 DOMAIN-KEYWORD,nijigem
@@ -348,3 +307,42 @@ DOMAIN-KEYWORD,misty
 DOMAIN,789.123456.al
 DOMAIN-KEYWORD,mcjoker
 DOMAIN-KEYWORD,bangumi
+# > Twitch
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,live-video.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,twitch-ext.rootonline.de
+DOMAIN-KEYWORD,ttvnw
+DOMAIN-KEYWORD,twitch
+IP-CIDR,103.53.48.0/23,no-resolve
+IP-CIDR,185.42.204.0/22,no-resolve
+IP-CIDR,192.108.239.0/24,no-resolve
+IP-CIDR,192.16.64.0/21,no-resolve
+IP-CIDR,199.9.248.0/21,no-resolve
+IP-CIDR,23.160.0.0/24,no-resolve
+IP-CIDR,45.113.128.0/22,no-resolve
+IP-CIDR,52.223.192.0/20,no-resolve
+IP-CIDR,52.223.208.0/21,no-resolve
+IP-CIDR,52.223.224.0/19,no-resolve
+IP-CIDR,99.181.64.0/18,no-resolve
+IP-CIDR6,2402:2a80::/32,no-resolve
+# > iQIYI
+DOMAIN-SUFFIX,iq.com
+DOMAIN,intl.iqiyi.com
+DOMAIN,intl-rcd.iqiyi.com
+DOMAIN,intl-subscription.iqiyi.com
+IP-CIDR,23.53.32.88/32,no-resolve
+IP-CIDR,23.211.15.99/32,no-resolve
+IP-CIDR,103.5.34.153/32,no-resolve
+IP-CIDR,104.109.129.153/32,no-resolve
+IP-CIDR,110.238.107.47/32,no-resolve
+IP-CIDR,118.26.32.178/32,no-resolve
+IP-CIDR,203.74.95.131/32,no-resolve
+IP-CIDR,203.74.95.139/32,no-resolve
+IP-CIDR,203.74.95.153/32,no-resolve
+IP-CIDR,203.211.4.169/32,no-resolve
+IP-CIDR,203.211.4.193/32,no-resolve
+IP-CIDR,210.71.227.200/32,no-resolve
+IP-CIDR,210.71.227.202/32,no-resolve
+IP-CIDR,210.201.32.8/32,no-resolve
+IP-CIDR,210.201.32.11/32,no-resolve
