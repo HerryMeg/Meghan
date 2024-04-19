@@ -32,10 +32,10 @@ proxy-groups:
   - {name: 港台番剧, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png', type: select, proxies: [DIRECT, 香港节点, 台湾节点]}
   - {name: 电报代理, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png', type: select, proxies: null, use: [Subscribe]}
   - {name: 特殊分流, icon: 'https://raw.githubusercontent.com/lucifer0822lee/Qure/master/ChatGPT.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
-  - {name: Spotify, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png', type: select, proxies: [DIRECT, Proxy]}
   - {name: 国际媒体, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点, 链式代理, 电信免流]}
   - {name: 电信免流, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SSID_1.png', type: select, proxies: null, filter: null, use: [Subscribe]}
   - {name: 黑白名单, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png', type: select, proxies: [Proxy, DIRECT, REJECT, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点, 链式代理, 特殊分流]}
+  - {name: Spotify, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png', type: select, proxies: [DIRECT, Proxy]}
   - {name: 苹果服务, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png', type: select, proxies: [DIRECT, Proxy]}
   # 节点地区分流
   - {name: 香港节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
