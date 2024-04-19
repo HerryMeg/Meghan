@@ -28,16 +28,16 @@ proxy-groups:
   - {name: Warp, icon: 'https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/warp.png', type: select, proxies: null, use: [Subscribe]}
   - {name: Netflix, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png', type: select, proxies: [香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
   - {name: Disney, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png', type: select, proxies: [香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
-  - {name: 全球加速, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
   - {name: 社交媒体, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
+  - {name: 全球加速, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
+  - {name: 港台番剧, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png', type: select, proxies: [DIRECT, 香港节点, 台湾节点]}
+  - {name: 电报代理, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png', type: select, proxies: null, use: [Subscribe]}
   - {name: 特殊分流, icon: 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
   - {name: Spotify, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png', type: select, proxies: [DIRECT, Proxy]}
-  - {name: 电报消息, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png', type: select, proxies: null, use: [Subscribe]}
-  - {name: 哔哩哔哩, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png', type: select, proxies: [DIRECT, 香港节点, 台湾节点]}
   - {name: 国际媒体, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点, 链式代理, 电信免流]}
   - {name: 电信免流, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SSID_1.png', type: select, proxies: null, filter: null, use: [Subscribe]}
   - {name: 苹果服务, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png', type: select, proxies: [DIRECT, Proxy]}
-  - {name: 兜底分流, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png', type: select, proxies: [Proxy, DIRECT, REJECT, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点, 链式代理, 特殊分流]}
+  - {name: 黑白名单, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png', type: select, proxies: [Proxy, DIRECT, REJECT, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点, 链式代理, 特殊分流]}
   - {name: 前置代理, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Viu.png', type: select, proxies: null, use: [Subscribe]}
   - {name: 后置代理, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png', type: select, proxies: null, use: [Subscribe]}
   - {name: 链式代理, icon: 'https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/relay.png', type: relay, proxies: [前置代理, 后置代理], hidden: true}
@@ -61,13 +61,13 @@ rule-providers:
   OneDrive: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/OneDrive.yaml'}
   # 谷歌服务
   Google: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Google.yaml'}
-  # 电报消息
+  # 电报代理
   Telegram: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Telegram.yaml'}
   # 社交媒体
   Twitter: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Twitter.yaml'}
   Facebook: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Facebook.yaml'}
   Instagram: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Instagram.yaml'}
-  # 哔哩哔哩
+  # 港台番剧
   BiliBili: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Bilibili.yaml'}
   # 游戏平台
   Steam: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Steam.yaml'}
@@ -97,11 +97,8 @@ rules:
   - RULE-SET,Twitter,社交媒体
   - RULE-SET,Facebook,社交媒体
   - RULE-SET,Instagram,社交媒体
-  - RULE-SET,Telegram,电报消息
-  - RULE-SET,Google,Proxy
-  - RULE-SET,Steam,Proxy
-  - RULE-SET,Epic,Proxy
-  - RULE-SET,BiliBili,哔哩哔哩
+  - RULE-SET,Telegram,电报代理
+  - RULE-SET,BiliBili,港台番剧
   - RULE-SET,Bahamut,国际媒体
   - RULE-SET,PrimeVideo,国际媒体
   - RULE-SET,HBO,国际媒体
@@ -109,6 +106,9 @@ rules:
   - RULE-SET,Youtube,国际媒体
   - RULE-SET,Twitch,国际媒体
   - RULE-SET,Emby,国际媒体
+  - RULE-SET,Google,全球加速
+  - RULE-SET,Steam,全球加速
+  - RULE-SET,Epic,全球加速
   - RULE-SET,ProxyGFW,全球加速
   - RULE-SET,AppleProxy,全球加速
   - RULE-SET,Apple,苹果服务
@@ -117,4 +117,4 @@ rules:
   - RULE-SET,Microsoft,DIRECT
   - RULE-SET,Lan,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,兜底分流
+  - MATCH,黑白名单
