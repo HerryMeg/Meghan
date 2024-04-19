@@ -1,4 +1,5 @@
 #SUBSCRIBED https://raw.githubusercontent.com/HerryMeg/Meghan/main/Stash/Stash.yaml
+#SUBSCRIBED https://raw.githubusercontent.com/HerryMeg/Meghan/main/Stash/Stash.yaml
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 mode: rule
 # 设置日志输出级别 (5 个级别：silent / error / warning / info / debug）
@@ -24,37 +25,37 @@ proxy-providers:
 # > 分流分组
 proxy-groups:
   - {name: Proxy, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Panda.png', type: select, use: [Subscribe], proxies: null}
-  - {name: Warp, icon: 'https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/warp.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: Netflix, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: Disney, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: 国外网站, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: 推特消息, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: OpenAI, icon: 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: Spotify, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: 电报消息, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
+  - {name: Warp, icon: 'https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/warp.png', type: select, proxies: null, use: [Subscribe]}
+  - {name: Netflix, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png', type: select, proxies: [香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
+  - {name: Disney, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png', type: select, proxies: [香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
+  - {name: 全球加速, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
+  - {name: 社交媒体, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
+  - {name: OpenAI, icon: 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
+  - {name: Spotify, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png', type: select, proxies: [DIRECT, Proxy]}
+  - {name: 电报消息, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png', type: select, proxies: null, use: [Subscribe]}
   - {name: 哔哩哔哩, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png', type: select, proxies: [DIRECT, 香港节点, 台湾节点]}
-  - {name: 国际媒体, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: 电信免流, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SSID_1.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: 苹果服务, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: 兜底分流, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png', type: select, proxies: [Proxy, 香港节点, 欧美节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-  - {name: 前置代理, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Viu.png', type: select, proxies: [DIRECT, 香港节点, 台湾节点]}
-  - {name: 后置代理, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png', type: select, proxies: [DIRECT, 香港节点, 台湾节点]}
-  - {name: 链式代理, icon: 'https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/relay.png', type: relay, proxies: [前置代理, 后置代理]}
+  - {name: 国际媒体, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点, 链式代理, 电信免流]}
+  - {name: 电信免流, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SSID_1.png', type: select, proxies: null, filter: null, use: [Subscribe]}
+  - {name: 苹果服务, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png', type: select, proxies: [DIRECT, Proxy]}
+  - {name: 兜底分流, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png', type: select, proxies: [Proxy, DIRECT, REJECT, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点, 链式代理, OpenAI]}
+  - {name: 前置代理, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Viu.png', type: select, proxies: null, use: [Subscribe]}
+  - {name: 后置代理, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png', type: select, proxies: null, use: [Subscribe]}
+  - {name: 链式代理, icon: 'https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/relay.png', type: relay, proxies: [前置代理, 后置代理], hidden: true}
   # 节点地区分流
   - {name: 香港节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
   - {name: 日本节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
   - {name: 台湾节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
   - {name: 韩国节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
   - {name: 狮城节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
-  - {name: 欧美节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
+  - {name: 欧美节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?:(?!🇭🇰|🇯🇵|🇰🇷|🇸🇬||台).)*$"}
 rule-providers:
   # 局域网   
   Lan: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Lan.yaml'}
   # 广告拦截
   Reject: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Reject.yaml'}
   # 苹果服务
-  Apple: {type: http, behavior: classical, format: text, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Apple.list'}
   AppleProxy: {type: http, behavior: classical, format: text, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/AppleProxy.list'}
+  Apple: {type: http, behavior: classical, format: text, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Apple.list'}
   # 微软服务 
   Microsoft: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Microsoft.yaml'}
   OneDrive: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/OneDrive.yaml'}
@@ -110,9 +111,9 @@ rules:
   - RULE-SET,Youtube,国际媒体
   - RULE-SET,Twitch,国际媒体
   - RULE-SET,Emby,国际媒体
-  - RULE-SET,ProxyGFW,国外网站
-  - RULE-SET,Github,国外网站
-  - RULE-SET,AppleProxy,国外网站
+  - RULE-SET,ProxyGFW,全球加速
+  - RULE-SET,Github,全球加速
+  - RULE-SET,AppleProxy,全球加速
   - RULE-SET,Apple,苹果服务
   - RULE-SET,Spotify,Spotify
   - RULE-SET,OneDrive,DIRECT
