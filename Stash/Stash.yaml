@@ -49,50 +49,55 @@ proxy-groups:
   - {name: 欧美节点, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png', type: url-test, lazy: true, interval: 900, use: [Subscribe], filter: "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
 rule-providers:
   # 局域网   
-  Lan: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Lan.yaml'}
+  Lan: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Lan.yaml'}
   # 广告拦截
-  Reject: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Reject.yaml'}
+  Reject: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Reject.yaml'}
   # 苹果服务
-  Apple: {type: http, behavior: classical, format: text, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Apple.list'}
-  AppleProxy: {type: http, behavior: classical, format: text, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/AppleProxy.list'}
+  Apple: {type: http, behavior: classical, format: text, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Apple.list'}
+  AppleProxy: {type: http, behavior: classical, format: text, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/AppleProxy.list'}
   # 微软服务 
-  Microsoft: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Microsoft.yaml'}
-  OneDrive: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/OneDrive.yaml'}
+  Microsoft: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Microsoft.yaml'}
+  OneDrive: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/OneDrive.yaml'}
   # Github
-  Github: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Github.yaml'}
+  Github: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Github.yaml'}
   # 谷歌服务
-  Google: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Google.yaml'}
+  Google: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Google.yaml'}
   # 电报消息
-  Telegram: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Telegram.yaml'}
-  # 推特消息
-  Twitter: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Twitter.yaml'}
+  Telegram: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Telegram.yaml'}
+  # 社交媒体
+  Twitter: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Twitter.yaml'}
+  Facebook: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Facebook.yaml'}
+  Instagram: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Instagram.yaml'}
   # 哔哩哔哩
-  BiliBili: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Bilibili.yaml'}
+  BiliBili: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Bilibili.yaml'}
   # 游戏平台
-  Steam: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Steam.yaml'}
-  Epic: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Epic.yaml'}
+  Steam: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Steam.yaml'}
+  Epic: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Epic.yaml'}
   # AI平台
-  OpenAI: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/OpenAI.yaml'}
+  OpenAI: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/OpenAI.yaml'}
   # Emby
-  Emby: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Emby.yaml'}
+  Emby: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Emby.yaml'}
   # Spotify
-  Spotify: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Spotify.yaml'}
+  Spotify: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Spotify.yaml'}
   # 国际媒体
-  Netflix: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Netflix.yaml'}
-  Disney: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Disney.yaml'}
-  YouTube: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/YouTube.yaml'}
-  Bahamut: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/Bahamut.yaml'}
-  PrimeVideo: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/PrimeVideo.yaml'}
-  HBO: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/HBO.yaml'}
-  TikTok: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/TikTok.yaml'}
+  Netflix: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Netflix.yaml'}
+  Disney: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Disney.yaml'}
+  YouTube: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/YouTube.yaml'}
+  Bahamut: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Bahamut.yaml'}
+  PrimeVideo: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/PrimeVideo.yaml'}
+  HBO: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/HBO.yaml'}
+  TikTok: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/TikTok.yaml'}
+  Twitch: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/Twitch.yaml'}
   # 代理网站
-  ProxyGFW: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/Repcz/Tool/raw/X/Stash/Rules/ProxyGFW.yaml'}
+  ProxyGFW: {type: http, behavior: classical, interval: 86400, url: 'https://github.com/HerryMeg/Meghan/raw/main/Stash/Rules/ProxyGFW.yaml'}
 rules:
   - RULE-SET,Reject,REJECT
   - RULE-SET,Netflix,Netflix
   - RULE-SET,Disney,Disney
   - RULE-SET,OpenAI,OpenAI
-  - RULE-SET,Twitter,推特消息
+  - RULE-SET,Twitter,社交媒体
+  - RULE-SET,Facebook,社交媒体
+  - RULE-SET,Instagram,社交媒体
   - RULE-SET,Telegram,电报消息
   - RULE-SET,Google,Proxy
   - RULE-SET,Steam,Proxy
@@ -103,6 +108,7 @@ rules:
   - RULE-SET,HBO,国际媒体
   - RULE-SET,TikTok,国际媒体
   - RULE-SET,Youtube,国际媒体
+  - RULE-SET,Twitch,国际媒体
   - RULE-SET,Emby,国际媒体
   - RULE-SET,ProxyGFW,国外网站
   - RULE-SET,Github,国外网站
