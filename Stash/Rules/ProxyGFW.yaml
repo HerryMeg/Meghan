@@ -18,7 +18,6 @@ payload:
   - DOMAIN-SUFFIX,myteamspeak.com
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,ping.pe
-  - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,teddysun.com
   - DOMAIN-SUFFIX,tumbex.com
   - DOMAIN-SUFFIX,twdvd.com
@@ -44,6 +43,7 @@ payload:
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,dropbox
+  - DOMAIN-KEYWORD,github
 
   # GFW list
   - DOMAIN-SUFFIX,gfwlist.start
@@ -1962,6 +1962,7 @@ payload:
   - DOMAIN-SUFFIX,github.blog
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubapp.com
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,gizlen.net
@@ -2262,7 +2263,6 @@ payload:
   - DOMAIN-SUFFIX,googlesile.com
   - DOMAIN-SUFFIX,googlesource.com
   - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,googleweblight.com
   - DOMAIN-SUFFIX,googlezip.net
   - DOMAIN-SUFFIX,gopetition.com

@@ -1968,6 +1968,18 @@ payload:
   - DOMAIN-SUFFIX,zwaar.org
   - DOMAIN-SUFFIX,zxrtb.com
   - DOMAIN-SUFFIX,zzd6.com
+  # > HuYa
+  - DOMAIN,business.msstatic.com
+  - DOMAIN,livewebbs2.msstatic.com
+  - DOMAIN,huyafile.msstatic.com
+  - DOMAIN,livewebbs2pcdn.msstatic.com
+  - DOMAIN,pp-cdnfile2pcdn.msstatic.com
+  - DOMAIN-SUFFIX,gjfzpt.cn
+  - DOMAIN-SUFFIX,display.io
+  - DOMAIN-SUFFIX,sascdn.com  
+  - ip-cidr,203.107.1.1/24,no-resolve
+  - ip-cidr,183.240.197.130/32,no-resolve
+  
   - IP-CIDR,101.124.19.122/32,no-resolve
   - IP-CIDR,101.227.200.11/32,no-resolve
   - IP-CIDR,101.227.200.28/32,no-resolve

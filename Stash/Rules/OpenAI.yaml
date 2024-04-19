@@ -58,3 +58,21 @@ payload:
   - IP-CIDR6,2401:c080:1000:47c5:5400:4ff:feab:f724/128,no-resolve
   - IP-ASN,14061,no-resolve
   - IP-ASN,20473,no-resolve
+  # >> Speedtest
+  - DOMAIN,speed.dler.io
+  - DOMAIN-SUFFIX,cdnst.net
+  - DOMAIN-SUFFIX,cellmaps.com
+  - DOMAIN-SUFFIX,ekahau.cloud
+  - DOMAIN-SUFFIX,ekahau.com
+  - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,ookla.com
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,pingtest.net
+  - DOMAIN-SUFFIX,speed.cloudflare.com
+  - DOMAIN-SUFFIX,speed.dler.io
+  - DOMAIN-SUFFIX,speedtest.co
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,speedtestcustom.com
+  - DOMAIN-SUFFIX,webtest.net
+  - DOMAIN-KEYWORD,speedtest
+  #USER-AGENT,SpeedTest*
