@@ -25,7 +25,6 @@ proxy-providers:
 # > 分流分组
 proxy-groups:
   - {name: Proxy, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Panda.png', type: select, use: [Subscribe], proxies: null}
-  - {name: Warp, icon: 'https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/warp.png', type: select, proxies: null, use: [Subscribe]}
   - {name: Netflix, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png', type: select, proxies: [香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
   - {name: Disney, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png', type: select, proxies: [香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
   - {name: 社交媒体, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png', type: select, proxies: [Proxy, 香港节点, 台湾节点, 日本节点, 韩国节点, 狮城节点, 欧美节点]}
