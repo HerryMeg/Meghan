@@ -1,4 +1,36 @@
-# YouTube、Twitch和Emby规则
+# YouTube、Twitch、Emby和添加苹果播客相关规则
+# > Mylist & Other
+DOMAIN-SUFFIX,tunein.com
+DOMAIN-SUFFIX,npr.org
+DOMAIN-SUFFIX,streamtheworld.com
+DOMAIN-SUFFIX,streamguys1.com
+DOMAIN-SUFFIX,art19.com
+DOMAIN-SUFFIX,chtbl.com
+DOMAIN-SUFFIX,tritondigital.com
+DOMAIN-SUFFIX,podtrac.com
+DOMAIN-SUFFIX,megaphone.fm
+DOMAIN-SUFFIX,pdst.fm
+DOMAIN-SUFFIX,simplecastaudio.com
+DOMAIN-SUFFIX,vpixl.com
+DOMAIN-SUFFIX,arttrk.com
+DOMAIN-SUFFIX,claritaspod.com
+DOMAIN-SUFFIX,washpostpodcasts.com
+DOMAIN-SUFFIX,chrt.fm
+DOMAIN-SUFFIX,pscrb.fm
+DOMAIN-SUFFIX,firstory.me
+DOMAIN-SUFFIX,acast.com
+DOMAIN-SUFFIX,libsyn.com
+DOMAIN-SUFFIX,mgln.ai
+DOMAIN-SUFFIX,podscribe.com
+DOMAIN-SUFFIX,tritondigital.com
+DOMAIN-SUFFIX,buzzsprout.com
+DOMAIN-SUFFIX,prxu.org
+DOMAIN-SUFFIX,wnyc.org
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,spreaker.com
+DOMAIN-SUFFIX,media.rss.com
+DOMAIN-SUFFIX,op3.dev
+
 # YouTube
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
@@ -49,6 +81,7 @@ DOMAIN-KEYWORD,poloemby
 DOMAIN-KEYWORD,mjjemby
 DOMAIN-KEYWORD,embyvip
 DOMAIN-KEYWORD,misty
+DOMAIN-KEYWORD,mius.uk
 DOMAIN,789.123456.al
 DOMAIN-KEYWORD,mcjoker
 DOMAIN-KEYWORD,bangumi
