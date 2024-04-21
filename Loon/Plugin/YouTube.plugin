@@ -1,8 +1,5 @@
 #!name = YouTube去广告
 #!desc = YouTube去广告，开启画中画。
-#!openUrl = 
-#!author = Maasea VirgilClyne Choler DivineEngine app2smile
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
 #!date = 2024-04-06 17:54:24
 #!select = 隐藏上传按钮, true, false
