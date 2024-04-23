@@ -6038,7 +6038,6 @@ DOMAIN-SUFFIX,tv.apple.com
 USER-AGENT,AppleNews*
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.news*
-USER-AGENT,com.apple.trustd*
 USER-AGENT,com.apple.tv*
 #PROCESS-NAME,LookupViewService
 
