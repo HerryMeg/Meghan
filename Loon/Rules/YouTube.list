@@ -86,5 +86,7 @@ DOMAIN-KEYWORD,mcjoker
 DOMAIN-KEYWORD,bangumi
 DOMAIN-KEYWORD,embyplus
 DOMAIN,emby.tnx.one
+DOMAIN,sf.awatv.de
+IP-CIDR,77.90.3.198/32,no-resolve
 DOMAIN,tv.811861.xyz
 DOMAIN-SUFFIX,emby.wtf
