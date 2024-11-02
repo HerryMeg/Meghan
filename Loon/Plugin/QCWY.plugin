@@ -1,6 +1,6 @@
 #!name = 51job去广告
 #!desc = 移除开屏广告、弹窗、信息流推广、职位页面推广和各类横幅推广。
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/51job.png
 #!date = 2024-11-06 17:54:24
 
 [Rewrite]
