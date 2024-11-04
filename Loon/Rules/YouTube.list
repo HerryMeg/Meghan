@@ -75,6 +75,7 @@ IP-CIDR6,2402:2a80::/32,no-resolve
 
 # > Emby
 DOMAIN-KEYWORD,embymv
+IP-CIDR,208.87.242.13/32,no-resolve
 IP-CIDR,193.123.232.141/32,no-resolve
 DOMAIN-KEYWORD,poloemby
 DOMAIN-KEYWORD,nijigem
