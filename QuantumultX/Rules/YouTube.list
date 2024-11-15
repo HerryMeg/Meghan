@@ -75,7 +75,10 @@ IP6-CIDR,2402:2a80::/32,no-resolve
 
 # > Emby
 DOMAIN-KEYWORD,embymv
+IP-CIDR,108.181.0.21/32,no-resolve
+IP-CIDR,208.87.242.13/32,no-resolve
 IP-CIDR,193.123.232.141/32,no-resolve
+IP-CIDR,168.119.137.205/32,no-resolve
 DOMAIN-KEYWORD,poloemby
 DOMAIN-KEYWORD,nijigem
 DOMAIN-KEYWORD,viclub
@@ -85,9 +88,15 @@ DOMAIN,789.123456.al
 DOMAIN-KEYWORD,mcjoker
 DOMAIN-KEYWORD,bangumi
 DOMAIN-KEYWORD,embyplus
-DOMAIN,emby.tnx.one
+DOMAIN-SUFFIX,nanflix.net
 DOMAIN-SUFFIX,awatv.de
-IP-CIDR,157.254.252.19/32,no-resolve
+IP-CIDR,154.12.61.177/32,no-resolve
 DOMAIN,tv.811861.xyz
 DOMAIN,oversea.alphatvapp.top
 DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,charontv.com
+DOMAIN-SUFFIX,7777777.buzz
+DOMAIN-SUFFIX,581658.best
+DOMAIN-SUFFIX,worldline.space
+DOMAIN-SUFFIX,pilipili.club
+DOMAIN-SUFFIX,tanhuatv.site
