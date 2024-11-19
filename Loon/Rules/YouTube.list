@@ -79,6 +79,7 @@ IP-CIDR,108.181.0.21/32,no-resolve
 IP-CIDR,208.87.242.13/32,no-resolve
 IP-CIDR,193.123.232.141/32,no-resolve
 IP-CIDR,168.119.137.205/32,no-resolve
+IP-CIDR,168.138.45.100/32,no-resolve
 DOMAIN-KEYWORD,poloemby
 DOMAIN-KEYWORD,nijigem
 DOMAIN-KEYWORD,viclub
