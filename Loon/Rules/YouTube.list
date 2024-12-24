@@ -1,5 +1,6 @@
 # YouTube、Twitch、Emby和添加苹果播客相关规则
 # > Mylist & Other
+DOMAIN-SUFFIX,cangku.moe
 DOMAIN-SUFFIX,tunein.com
 DOMAIN-SUFFIX,npr.org
 DOMAIN-SUFFIX,streamtheworld.com
