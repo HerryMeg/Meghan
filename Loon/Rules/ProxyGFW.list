@@ -6032,8 +6032,6 @@ DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
 DOMAIN-SUFFIX,blobstore.apple.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 USER-AGENT,AppleNews*
