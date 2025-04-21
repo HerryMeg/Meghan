@@ -99,6 +99,7 @@ DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,charontv.com
 DOMAIN-SUFFIX,7777777.buzz
 DOMAIN-SUFFIX,581658.best
+IP-CIDR,193.122.114.13/32,no-resolve
 DOMAIN-SUFFIX,worldline.space
 DOMAIN-SUFFIX,pilipiliultra.com
 DOMAIN-SUFFIX,tanhuatv.site
