@@ -42,3 +42,4 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,instagram.com
+IP-CIDR6,2a03:2880::/32,no-resolve
