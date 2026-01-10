@@ -91,20 +91,11 @@ DOMAIN-KEYWORD,mcjoker
 DOMAIN-KEYWORD,bangumi
 DOMAIN-KEYWORD,embyplus
 IP-CIDR,154.12.61.177/32,no-resolve
-DOMAIN-SUFFIX,811861.xyz
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,charontv.com
 DOMAIN-SUFFIX,feiyue.lol
-DOMAIN-SUFFIX,581658.best
 IP-CIDR,193.122.114.13/32,no-resolve
-DOMAIN-SUFFIX,worldline.space
 DOMAIN-SUFFIX,pilipiliultra.com
-<<<<<<< HEAD
 DOMAIN,free3.28.al
 DOMAIN-SUFFIX,echoflix.vip
-=======
-DOMAIN-SUFFIX,tanhuatv.site
-DOMAIN,free.28.al
-DOMAIN-SUFFIX,echoflix.vip
 DOMAIN-SUFFIX,cn2gias.uk
->>>>>>> 35a3d15c9ba6dee0fc6cca68a6d0b4db4d1b33e3
