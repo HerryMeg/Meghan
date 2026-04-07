@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,apple-relay.apple.com
 # DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-KEYWORD,openaicom-api
 AND,((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com))
 AND,((DOMAIN-KEYWORD, openaicom-api-), (DOMAIN-SUFFIX, azurefd.net))
