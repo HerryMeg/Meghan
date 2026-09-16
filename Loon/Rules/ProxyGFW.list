@@ -6016,7 +6016,6 @@ DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,cdn.apple-cloudkit.com
-DOMAIN,cvws.icloud-content.com
 DOMAIN,developer.apple.com
 DOMAIN,devimages-cdn.apple.com
 DOMAIN,devstreaming-cdn.apple.com
@@ -6024,9 +6023,6 @@ DOMAIN,docs-assets.developer.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN,lookup-api.apple.com
-DOMAIN,mask-api.icloud.com
-DOMAIN,mask-h2.icloud.com
-DOMAIN,mask.icloud.com
 DOMAIN,news-assets.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
@@ -6059,7 +6055,6 @@ DOMAIN,gemini.apple.com
 DOMAIN,geminiapis.apple.com
 DOMAIN,geminiprops.apple.com
 DOMAIN,mask-api.fe.apple-dns.net
-DOMAIN,mask-api.icloud.com
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
 DOMAIN-SUFFIX,apple-relay.apple.com
@@ -6067,12 +6062,9 @@ DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,mask-h2.icloud.com
-DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-KEYWORD,appleintelligence
 DOMAIN-KEYWORD,genai
 DOMAIN-KEYWORD,siri-ai
