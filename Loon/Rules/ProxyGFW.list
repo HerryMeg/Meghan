@@ -6073,6 +6073,7 @@ DOMAIN-KEYWORD,applellm
 DOMAIN-KEYWORD,apple-llm
 DOMAIN-KEYWORD,afm-cloud
 DOMAIN,tv.applemusic.com
+DOMAIN-SUFFIX,podcasts.apple.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appsto.re
