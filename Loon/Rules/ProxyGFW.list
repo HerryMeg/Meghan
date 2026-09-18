@@ -6038,6 +6038,8 @@ DOMAIN,intelligence.apple.com
 DOMAIN,afm.apple.com
 DOMAIN,afm-api.apple.com
 DOMAIN,afm.cloud.apple.com
+DOMAIN,gateway.icloud.com
+DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,pcc.apple.com
 DOMAIN-SUFFIX,pcp.apple.com
 DOMAIN-SUFFIX,vision.apple.com
