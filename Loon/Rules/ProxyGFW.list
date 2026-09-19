@@ -6072,11 +6072,11 @@ DOMAIN-KEYWORD,siri_ai
 DOMAIN-KEYWORD,applellm
 DOMAIN-KEYWORD,apple-llm
 DOMAIN-KEYWORD,afm-cloud
+DOMAIN-keyword,api-siri
 DOMAIN,tv.applemusic.com
 DOMAIN-SUFFIX,podcasts.apple.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,api-siri
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
 DOMAIN-SUFFIX,blobstore.apple.com
