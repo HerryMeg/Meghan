@@ -1,7 +1,8 @@
 # 代理列表
 
 # MyList && Other
-DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-KEYWORD,nodeseek
+DOMAIN-KEYWORD,nodeimage
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,bit.no.com
